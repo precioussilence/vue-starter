@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <div>This is the home page</div>
+    <div class="p-6">This is the home page<span class="i-carbon:sun"></span></div>
   </main>
 </template>
