@@ -10,6 +10,22 @@ Extended the official Vue template with extra tools for better DX.
 
 > UnoCSS is the instant atomic CSS engine, that is designed to be flexible and extensible. The core is un-opinionated and all the CSS utilities are provided via presets.
 
+- [Naive UI](https://www.naiveui.com/zh-CN/os-theme)
+
+> A Vue 3 Component Library
+>
+> Fairly Complete, Theme Customizable, Uses TypeScript, Fast
+>
+> Kinda Interesting
+
+- [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import)
+
+> Auto import APIs on-demand for Vite, Webpack, Rspack, Rollup and esbuild. With TypeScript support. Powered by unplugin.
+
+- [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
+
+> On-demand components auto importing for Vue.
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [Unocss](https://marketplace.visualstudio.com/items?itemName=antfu.unocss).
