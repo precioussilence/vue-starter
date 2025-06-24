@@ -25,11 +25,12 @@ export default defineConfig({
           'naive-ui': ['useDialog', 'useMessage', 'useNotification', 'useLoadingBar'],
         },
       ],
-      dts: 'types/auto-imports.d.ts',
+      dts: 'src/auto-imports.d.ts',
+      vueTemplate: true,
     }),
     Components({
       resolvers: [NaiveUiResolver()],
-      dts: 'types/components.d.ts',
+      dts: 'src/components.d.ts',
     }),
   ],
   resolve: {
