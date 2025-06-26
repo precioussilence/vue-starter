@@ -11,6 +11,8 @@ declare module 'vue' {
     ContentLayout: typeof import('./components/layout/ContentLayout.vue')['default']
     FooterLayout: typeof import('./components/layout/FooterLayout.vue')['default']
     HeaderLayout: typeof import('./components/layout/HeaderLayout.vue')['default']
+    HomePage: typeof import('./components/home/HomePage.vue')['default']
+    MenuPage: typeof import('./components/system/MenuPage.vue')['default']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
     NFlex: typeof import('naive-ui')['NFlex']
     NH2: typeof import('naive-ui')['NH2']
@@ -20,8 +22,10 @@ declare module 'vue' {
     NLayoutHeader: typeof import('naive-ui')['NLayoutHeader']
     NLayoutSider: typeof import('naive-ui')['NLayoutSider']
     NMenu: typeof import('naive-ui')['NMenu']
+    RolePage: typeof import('./components/system/RolePage.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SiderLayout: typeof import('./components/layout/SiderLayout.vue')['default']
+    UserPage: typeof import('./components/system/UserPage.vue')['default']
   }
 }
