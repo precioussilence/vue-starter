@@ -8,7 +8,19 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ContentLayout: typeof import('./components/layout/ContentLayout.vue')['default']
+    FooterLayout: typeof import('./components/layout/FooterLayout.vue')['default']
+    HeaderLayout: typeof import('./components/layout/HeaderLayout.vue')['default']
+    NConfigProvider: typeof import('naive-ui')['NConfigProvider']
+    NFlex: typeof import('naive-ui')['NFlex']
+    NH2: typeof import('naive-ui')['NH2']
+    NLayout: typeof import('naive-ui')['NLayout']
+    NLayoutContent: typeof import('naive-ui')['NLayoutContent']
+    NLayoutFooter: typeof import('naive-ui')['NLayoutFooter']
+    NLayoutHeader: typeof import('naive-ui')['NLayoutHeader']
+    NLayoutSider: typeof import('naive-ui')['NLayoutSider']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SiderLayout: typeof import('./components/layout/SiderLayout.vue')['default']
   }
 }

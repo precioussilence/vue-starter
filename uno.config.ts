@@ -9,6 +9,9 @@ export default defineConfig({
         display: 'inline-block',
         'vertical-align': 'middle',
       },
+      collections: {
+        carbon: () => import('@iconify-json/carbon/icons.json').then((i) => i.default),
+      },
     }),
   ],
 })

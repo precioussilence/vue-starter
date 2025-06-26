@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <NConfigProvider class="h-screen">
-    <RouterView />
-  </NConfigProvider>
+  <NLayoutFooter bordered class="shrink-0 p-6"> footer </NLayoutFooter>
 </template>
 
 <style scoped></style>

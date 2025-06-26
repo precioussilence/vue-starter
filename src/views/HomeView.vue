@@ -1,15 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>
-    <div class="p-6">This is the home page<span class="i-carbon:sun"></span></div>
-    <div class="flex gap-1">
-      <NButton>提交</NButton>
-      <NButton type="primary">Primary</NButton>
-      <NButton type="info">Info</NButton>
-      <NButton type="success">Success</NButton>
-      <NButton type="warning">Warning</NButton>
-      <NButton type="error">Error</NButton>
-    </div>
-  </main>
+  <NLayout class="h-full">
+    <NFlex vertical class="h-full">
+      <HeaderLayout />
+      <NLayout has-sider>
+        <SiderLayout />
+        <NLayout>
+          <NFlex vertical size="small" class="h-full">
+            <ContentLayout />
+            <FooterLayout />
+          </NFlex>
+        </NLayout>
+      </NLayout>
+    </NFlex>
+  </NLayout>
 </template>

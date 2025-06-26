@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <NConfigProvider class="h-screen">
-    <RouterView />
-  </NConfigProvider>
+  <NLayoutSider bordered>Sider</NLayoutSider>
 </template>
 
 <style scoped></style>
